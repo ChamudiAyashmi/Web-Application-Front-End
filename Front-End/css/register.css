@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.homepage{
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    width: 80%;
+    /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("https://media.istockphoto.com/id/1132845014/photo/chalkboard-light-bulb.webp?b=1&s=170667a&w=0&k=20&c=4ccsu-j3WUznWaL0WPmYeDRRcKb4QvDzx1EObMcL1as="); */
+    background-position: center;
+    background-color: #2C1313;
+    background-size:  cover;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.logo span{
+    color: #FF3333;
+}
+.navbar{
+    margin-top: 3%;
+}
+
+.navbar a{
+    padding: 20px; 
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+.navbar a:hover{
+    color: #FF3333;
+}
+.btnLogin{
+    color: white;
+    background-color: #FF3333;
+    border: none;
+    height: 35px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnLogin:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid #FF3333;
+}
+.section{
+    /* margin: 4%; */
+    margin-top: 4%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 4%;
+}
+h2{
+    background-color: #FF3333;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 1.5%;
+    
+}
+.regi-form{
+    background-color: white;
+}
+
+
+
+
+
